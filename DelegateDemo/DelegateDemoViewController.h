@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimerControl.h"
 
-@interface DelegateDemoViewController : UIViewController
+@interface DelegateDemoViewController : UIViewController<UpdateAlertDelegate>
 
 @end

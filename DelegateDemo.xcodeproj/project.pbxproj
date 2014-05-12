@@ -21,6 +21,7 @@
 		3662345819206B5E00145D1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3662343A19206B5E00145D1D /* UIKit.framework */; };
 		3662346019206B5E00145D1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3662345E19206B5E00145D1D /* InfoPlist.strings */; };
 		3662346219206B5E00145D1D /* DelegateDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3662346119206B5E00145D1D /* DelegateDemoTests.m */; };
+		3662346D19206D1800145D1D /* TimerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3662346C19206D1800145D1D /* TimerControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3662345D19206B5E00145D1D /* DelegateDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateDemoTests-Info.plist"; sourceTree = "<group>"; };
 		3662345F19206B5E00145D1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3662346119206B5E00145D1D /* DelegateDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateDemoTests.m; sourceTree = "<group>"; };
+		3662346B19206D1800145D1D /* TimerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerControl.h; sourceTree = "<group>"; };
+		3662346C19206D1800145D1D /* TimerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				3662344C19206B5E00145D1D /* DelegateDemoViewController.m */,
 				3662344E19206B5E00145D1D /* Images.xcassets */,
 				3662343D19206B5E00145D1D /* Supporting Files */,
+				3662346B19206D1800145D1D /* TimerControl.h */,
+				3662346C19206D1800145D1D /* TimerControl.m */,
 			);
 			path = DelegateDemo;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				3662344719206B5E00145D1D /* DelegateDemoAppDelegate.m in Sources */,
 				3662344319206B5E00145D1D /* main.m in Sources */,
 				3662344D19206B5E00145D1D /* DelegateDemoViewController.m in Sources */,
+				3662346D19206D1800145D1D /* TimerControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
