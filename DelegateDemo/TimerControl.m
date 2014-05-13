@@ -19,7 +19,12 @@
 
 - (void) timerProc
 {
-    [self.delegate updateAlert];//委托更新UI
+    //[self.delegate updateAlert];//委托更新UI
+    //block代替委托
+    if (self.updateAlertBlock)
+    {
+        self.updateAlertBlock();
+    }
 }
 
 @end

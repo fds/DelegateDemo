@@ -21,6 +21,18 @@
 	// Do any additional setup after loading the view, typically from a nib.
     TimerControl *timer = [[TimerControl alloc] init];
     timer.delegate = self; //设置委托实例
+    
+    //实现block
+    timer.updateAlertBlock = ^()
+    {
+        UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"提示" message:@"时间到" delegate:self cancelButtonTitle:nil otherButtonTitles:@"确定",nil];
+        
+        alert.alertViewStyle=UIAlertViewStyleDefault;
+        [alert show];
+    };
+    
+    
+    
     [timer startTheTimer];//启动定时器，定时5触发
 }
 

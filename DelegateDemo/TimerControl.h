@@ -15,9 +15,15 @@
 @end
 
 
+
 @interface TimerControl : NSObject
 //委托变量定义
 @property (nonatomic, weak) id<UpdateAlertDelegate> delegate;
+
+
+//block
+typedef void (^UpdateAlertBlock)();
+@property (nonatomic, copy) UpdateAlertBlock updateAlertBlock;
 
 - (void) startTheTimer;
    
